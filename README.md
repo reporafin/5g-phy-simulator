@@ -34,5 +34,12 @@ cd 5g-phy-simulator
 
 # Install dependencies
 pip install -r requirements.txt
+```
+## Future Roadmap
+
+This repository is designed as a foundational framework. Because the pipeline is built natively on TensorFlow tensors, my next steps are to begin swapping out traditional mathematical blocks for AI/ML alternatives:
+- [ ] Migrate the traditional app-based demapper to a Neural Network (Deep Learning) receiver.
+- [ ] Implement OFDM framing with Pilot symbol insertion.
+- [ ] Replace Perfect CSI with Least Squares (LS) Channel Estimation.
 # Run the Monte Carlo simulation
 python main.py
