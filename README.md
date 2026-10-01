@@ -12,7 +12,7 @@ This simulator models a complete, end-to-end digital communication transceiver:
 2. **The Channel:** The signal is blasted through a **Rayleigh Block Fading** channel to simulate the harsh realities of multipath propagation (signals bouncing off buildings and streets), followed by standard Additive White Gaussian Noise (AWGN).
 3. **The Receiver:** A **Zero Forcing (ZF) Equalizer** divides out the fading effect to unscramble the phase shifts. An app-based demapper calculates the Log-Likelihood Ratios (LLRs) for each bit, and finally, a **Belief Propagation Decoder** solves the 5G parity equations to correct any bits flipped by the noise.
 
-## 📊 Visualizing the Physics (Simulation Dashboard)
+## Visualizing the Physics (Simulation Dashboard)
 
 Instead of just looking at terminal outputs, I designed a 3-panel dashboard to visualize the physics and the math simultaneously. 
 
