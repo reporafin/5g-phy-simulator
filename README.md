@@ -18,10 +18,10 @@ Instead of just looking at terminal outputs, I designed a 3-panel dashboard to v
 
 ![5G Simulation Dashboard](results/5g_simulation_dashboard.png)
 
-### What the Dashboard Shows:
-* **Left (The Proof):** The Bit Error Rate (BER) waterfall curve proves the massive coding gain of 3GPP LDPC. In a fading environment, the uncoded signal degrades heavily, but the 5G LDPC algorithm maintains a near zero error rate at much lower signal power.
-* **Center (The Mess):** The raw received signal at 15 dB SNR. This is what the antenna actually sees—a completely unreadable, phase-shifted scatter plot destroyed by multipath fading.
-* **Right (The Fix):** The equalized signal. This visually demonstrates the Zero-Forcing equalizer successfully untangling the multipath mess, snapping the scattered points back into distinct 16-QAM clusters so the decoder can read them.
+### The Dashboard Shows:
+* **Left :** The Bit Error Rate (BER) waterfall curve proves the massive coding gain of 3GPP LDPC. In a fading environment, the uncoded signal degrades heavily, but the 5G LDPC algorithm maintains a near zero error rate at much lower signal power.
+* **Center :** The raw received signal at 15 dB SNR. This is what the antenna actually sees, a completely unreadable, phase-shifted scatter plot destroyed by multipath fading.
+* **Right :** The equalized signal. This visually demonstrates the Zero-Forcing equalizer successfully untangling the multipath mess, snapping the scattered points back into distinct 16-QAM clusters so the decoder can read them.
 
 ## Pre-requsites
 
